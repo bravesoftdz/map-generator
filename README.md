@@ -1,3 +1,5 @@
+## Task
+
 Реализовать генератор ковриков. 
 Генератор должен по заданной строке создавать узор из символов, что напоминает коврик. 
 Такой узор можно наблюдать при использовании моноширинного шрифта. 
@@ -9,10 +11,13 @@
 Рекомендуется использовать символы для создания таблиц "│", "┤", "╡", "╢", "╖", "╕", "╣", "║", ... и другие типа: "░", "▒", "▓", "█", "▄", ...
 Их можно найти здесь:  https://ru.wikipedia.org/wiki/CP437
 
-============Example===============
+## Example
 
 $crapt = new carpetGenerator();
 $crapt->generateMap();
 $crapt->generateBorder();
 $crapt->generateCarpet();
 $res = $crapt->showCarpet();
+
+## Author
+[Dykyi Roman](https://github.com/dykyi-roman/), e-mail: [mr.dukuy@gmail.com](mailto:mr.dukuy@gmail.com)
